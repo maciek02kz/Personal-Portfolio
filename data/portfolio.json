@@ -1,1 +1,121 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":false,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+  "name": "Maciej",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Maciej Koziol -",
+  "headerTaglineThree": "Data Scientist/Analyst",
+  "headerTaglineFour": " based in Chicago, IL",
+  "showCursor": false,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/maciek02kz"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/koziol-maciej/"
+    },
+    {
+      "id": "3",
+      "title": "Email",
+      "link": "mailto:maciek02kz@gmail.com"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Project One Test",
+      "description": "Web Design",
+      "imageSrc": "/images/ava2.png",
+      "url": "http://chetanverma.com/"
+    },
+    {
+      "id": "2",
+      "title": "Project Two",
+      "description": "Web Development",
+      "imageSrc": "/images/avaalso.png",
+      "url": "http://chetanverma.com/"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Art Direction",
+      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+    },
+    {
+      "id": "2",
+      "title": "Branding",
+      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+    },
+    {
+      "id": "3",
+      "title": "Web Design",
+      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+    },
+    {
+      "id": "4",
+      "title": "3D Design",
+      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+    }
+  ],
+  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "resume": {
+    "tagline": "Data Scientist with experience in developing predictive models and data-driven solutions to optimize operational workflows.",
+    "description": "Highly skilled in Python (Scikit-learn, Pandas, Matplotlib), SQL, Cloud Platforms (GCP, AWS, BigQuery), and visualization tools (PowerBI, Tableau, Looker) for end-to-end data science projects.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "June 2025 - Present",
+        "type": "Full Time",
+        "position": "Data Scientist at Collins Engineers, Inc. (Chicago, IL)",
+        "bullets": "Built predictive models using Python (Scikit-learn, Pandas) to forecast project costs, driving a 25% reduction in operational expenses, Led end-to-end development of internal dashboards by collaborating across multiple teams and cutting project costs by 45%, Engineered automated data ingestion and feature engineering pipelines in Python and SQL (GCP) for scalable ML deployment, Developed financial analytics reports for 2026 budgeting across 15 U.S. offices in collaboration with the CFO, Analyzed historical HR data to identify key factors behind high employee turnover and revealed actionable retention insights, Partnered with HR and Engineering teams to transform raw ERP data into KPIs and Power BI dashboards, Presented data-driven findings to executives translating complex model outputs into clear business recommendations"
+      },
+      {
+        "id": "2",
+        "dates": "May 2023 - September 2024",
+        "type": "Internship",
+        "position": "Data Analyst Intern at Collins Engineers, Inc. (Chicago, IL)",
+        "bullets": "Developed and maintained Tableau and Looker dashboards leveraging SQL and DAX to deliver near real-time insights into client requests and resource usage, Designed efficient data extracts for Hennepin County parsing over 100 terabytes of client data to provide faster and more sustainable analytics portals, Collaborated on the iterative development and deployment of a modern asset and inventory management tool for multiple state DOTs integrating QA automation and version control"
+      }
+    ],
+    "education": {
+      "universityName": "University of Wisconsin-Madison (Madison, WI)",
+      "universityDate": "2025",
+      "universityPara": "B.S. in Computer Science. Coursework includes Database Management, Optimization, Discrete Math, Computer Graphics, Algorithms, and Physics."
+    },
+    "languages": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript",
+      "C",
+      "C++",
+      "DAX",
+      "MongoDB",
+      "Polish (Fluent)"
+    ],
+    "frameworks": [
+      "Scikit-learn",
+      "NLP",
+      "Full-Stack",
+      "Django",
+      "Agile"
+    ],
+    "others": [
+      "GCP",
+      "AWS",
+      "BigQuery",
+      "Looker",
+      "PowerBI",
+      "Tableau",
+      "Data Management",
+      "Algorithms",
+      "Git"
+    ]
+  }
+}
