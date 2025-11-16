@@ -37,19 +37,21 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       setTheme(theme === "dark" ? "light" : "dark")
                     }
                   >
-                    <img
-                      className="h-6"
-                      src={`/images/${
-                        theme === "dark" ? "moon.svg" : "sun.svg"
-                      }`}
-                    ></img>
+                      <img
+                        className="h-6"
+                        loading="lazy"
+                        src={`/Personal-Portfolio/images/${
+                          theme === "dark" ? "moon.svg" : "sun.svg"
+                        }`}
+                      ></img>
                   </Button>
                 )}
 
                 <Popover.Button>
                   <img
                     className="h-5"
-                    src={`/images/${
+                    loading="lazy"
+                    src={`/Personal-Portfolio/images/${
                       !open
                         ? theme === "dark"
                           ? "menu-white.svg"
@@ -154,7 +156,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  loading="lazy"
+                  src={`/Personal-Portfolio/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
@@ -184,7 +187,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               >
                 <img
                   className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  loading="lazy"
+                  src={`/Personal-Portfolio/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
