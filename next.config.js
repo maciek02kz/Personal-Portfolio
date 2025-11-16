@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/Personal-Portfolio',
-  assetPrefix: '/Personal-Portfolio/',
+  // Removed basePath and assetPrefix (were used for GitHub Pages).
+  // Keep defaults so the app serves from the root domain.
   images: {
     unoptimized: true,
   },

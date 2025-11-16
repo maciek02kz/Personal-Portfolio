@@ -14,7 +14,7 @@ const WorkCard = ({ img, name, description, onClick }) => {
         <img
           alt={name}
           className="h-full w-full object-cover hover:scale-110 transition-all ease-out duration-300"
-         src={"/Personal-Portfolio" + img}
+          src={img}
         ></img>
       </div>
       <h1 className="mt-5 text-3xl font-medium">

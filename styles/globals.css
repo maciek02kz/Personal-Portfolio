@@ -4,8 +4,10 @@
 @tailwind utilities;
 @import "./markdown.css";
 
+/* Use font fallbacks so the page doesn't fall back to a serif if Google Fonts
+   is blocked or slow. */
 * {
-  font-family: "Hind";
+  font-family: "Hind", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 body {
@@ -54,7 +56,8 @@ body {
   background: linear-gradient(-45deg, #45caff 0%, #ff1b6b 100%);
   transform: translate3d(0px, 20px, 0) scale(0.95);
   filter: blur(20px);
-  opacity: var(0.7);
+  /* fixed: var(0.7) is invalid; use a numeric value */
+  opacity: 0.7;
   transition: opacity 0.3s;
   border-radius: inherit;
 }

@@ -7,9 +7,11 @@ import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
-import { name, showResume } from "../data/portfolio.json";
-import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
+
+// Use the JSON data via a single default import to avoid named-import
+// issues during the build. Destructure the values we need below.
+const { name, resume, showResume } = data;
 
 const Resume = () => {
   const router = useRouter();

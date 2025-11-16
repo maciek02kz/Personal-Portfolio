@@ -35,7 +35,7 @@ const BlogPost = ({ post }) => {
           <img
             className="w-full h-96 rounded-lg shadow-lg object-cover"
             loading="lazy"
-            src={'/Personal-Portfolio' + post.image}
+            src={post.image}
             alt={post.title}
           ></img>
           <h1

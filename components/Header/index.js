@@ -40,9 +40,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       <img
                         className="h-6"
                         loading="lazy"
-                        src={`/Personal-Portfolio/images/${
-                          theme === "dark" ? "moon.svg" : "sun.svg"
-                        }`}
+                        src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                       ></img>
                   </Button>
                 )}
@@ -51,7 +49,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <img
                     className="h-5"
                     loading="lazy"
-                    src={`/Personal-Portfolio/images/${
+                    src={`/images/${
                       !open
                         ? theme === "dark"
                           ? "menu-white.svg"
@@ -157,7 +155,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <img
                   className="h-6"
                   loading="lazy"
-                  src={`/Personal-Portfolio/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
@@ -188,7 +186,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <img
                   className="h-6"
                   loading="lazy"
-                  src={`/Personal-Portfolio/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                 ></img>
               </Button>
             )}
