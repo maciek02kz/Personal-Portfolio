@@ -30,15 +30,13 @@
       "id": "1",
       "title": "Project One Test",
       "description": "Web Design",
-      "imageSrc": "/images/ava2.png",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "/images/ava2.png"
     },
     {
       "id": "2",
       "title": "Project Two",
       "description": "Web Development",
-      "imageSrc": "/images/avaalso.png",
-      "url": "http://chetanverma.com/"
+      "imageSrc": "/images/avaalso.png"
     }
   ],
   "services": [
