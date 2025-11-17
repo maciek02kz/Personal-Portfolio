@@ -2,10 +2,10 @@
   "name": "Maciej",
   "headerTaglineOne": "Hello 👋",
   "headerTaglineTwo": "I'm Maciej Koziol -",
-  "headerTaglineThree": "Data Scientist/Analyst",
+  "headerTaglineThree": "Data Scientist",
   "headerTaglineFour": " based in Chicago, IL",
   "showCursor": false,
-  "showBlog": true,
+  "showBlog": false,
   "darkMode": true,
   "showResume": true,
   "socials": [

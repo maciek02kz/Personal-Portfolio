@@ -8,26 +8,14 @@
 
 Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
 
-Blog - https://www.chetanverma.com/blog/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+
 
 ### Features - 
 
-- Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
-- Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
-- Dark Mode
+
 
 
 ### Sections
-
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
 
 
 ### How To Use

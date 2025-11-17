@@ -4,7 +4,7 @@
   "headerTaglineTwo": "I'm Chetan Verma - curious",
   "headerTaglineThree": "designer and devloper",
   "headerTaglineFour": " based in New Delhi, India.",
-  "showBlog": true,
+  "showBlog": false,
   "darkMode": true,
   "socials": [
     {
@@ -22,7 +22,7 @@
       "title": "Twitter",
       "link": "https://twitter.com/realchetanverma"
     },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
+
     { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
   ],
   "projects": [
