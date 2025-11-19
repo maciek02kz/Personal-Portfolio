@@ -57,13 +57,13 @@
       "id": "3",
       "title": "Condition Rating Dashboard",
       "image": "/images/SOW3.png",
-      "description": "Dashboard created for Chicago Bridge Inspection Team to visualize and analyze bridge condition ratings across various regions, enabling data-driven maintenance decisions and resource allocation. Specific details have been omitted to maintain confidentiality."
+      "description": "Dashboard created to visualize and analyze bridge condition ratings across various regions, enabling data-driven maintenance decisions and resource allocation. Specific details have been omitted to maintain confidentiality."
     },
     {
       "id": "4",
       "title": "Asset Maintenance and Managment Dashboard",
       "image": "/images/SOW4.png",
-      "description": "Dashboard analyzing MPC's asset maintenance and management data to optimize resource allocation and improve operational efficiency. Specific details have been omitted to maintain confidentiality."
+      "description": "Dashboard analyzing asset maintenance and management data to optimize resource allocation and improve operational efficiency. Specific details have been omitted to maintain confidentiality."
     }
   ],
   "services": [
