@@ -100,14 +100,14 @@
         "dates": "June 2025 - Present",
         "type": "Full Time",
         "position": "Data Scientist at Collins Engineers, Inc. (Chicago, IL)",
-        "bullets": "Built predictive models using Python (Scikit-learn, Pandas) to forecast project costs, driving a 25% reduction in operational expenses, Led end-to-end development of internal dashboards by collaborating across multiple teams and cutting project costs by 45%, Engineered automated data ingestion and feature engineering pipelines in Python and SQL (GCP) for scalable ML deployment, Developed financial analytics reports for 2026 budgeting across 15 U.S. offices in collaboration with the CFO, Analyzed historical HR data to identify key factors behind high employee turnover and revealed actionable retention insights, Partnered with HR and Engineering teams to transform raw ERP data into KPIs and Power BI dashboards, Presented data-driven findings to executives translating complex model outputs into clear business recommendations"
+        "bullets": "Built predictive models using Python (Scikit-learn, Pandas) to forecast project costs, driving a 25% reduction in operational expenses. Led end-to-end development of internal dashboards by collaborating across multiple teams and cutting project costs by 45%. Engineered automated data ingestion and feature engineering pipelines in Python and SQL (GCP) for scalable ML deployment. Developed financial analytics reports for 2026 budgeting across 15 US offices in collaboration with the CFO. Analyzed historical HR data to identify key factors behind high employee turnover and revealed actionable retention insights. Partnered with HR and Engineering teams to transform raw ERP data into KPIs and Power BI dashboards. Presented data-driven findings to executives translating complex model outputs into clear business recommendations."
       },
       {
         "id": "2",
         "dates": "May 2023 - September 2024",
         "type": "Internship",
         "position": "Data Analyst Intern at Collins Engineers, Inc. (Chicago, IL)",
-        "bullets": "Developed and maintained Tableau and Looker dashboards leveraging SQL and DAX to deliver near real-time insights into client requests and resource usage, Designed efficient data extracts for Hennepin County parsing over 100 terabytes of client data to provide faster and more sustainable analytics portals, Collaborated on the iterative development and deployment of a modern asset and inventory management tool for multiple state DOTs integrating QA automation and version control"
+        "bullets": "Developed and maintained Tableau and Looker dashboards leveraging SQL and DAX to deliver near real-time insights into client requests and resource usage. Designed efficient data extracts for Hennepin County parsing over 100 terabytes of client data to provide faster and more sustainable analytics portals. Collaborated on the iterative development and deployment of a modern asset and inventory management tool for multiple state DOTs integrating QA automation and version control."
       }
     ],
     "education": {
