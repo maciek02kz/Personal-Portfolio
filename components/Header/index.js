@@ -74,13 +74,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   {!hideAbout && <Button onClick={handleAboutScroll}>About</Button>}
                   {/* Blog button removed */}
                   {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
-                    >
-                      Resume
-                    </Button>
+                    <Button onClick={() => router.push("/resume")}>Resume</Button>
                   )}
 
                   <Button
