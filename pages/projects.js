@@ -89,8 +89,8 @@ const Projects = () => {
           className="fixed inset-0 bg-black bg-opacity-70 z-50 flex items-center justify-center p-4"
           onClick={closeModal}
         >
-          <div 
-            className="bg-white dark:bg-slate-800 rounded-lg max-w-4xl w-full max-h-90vh overflow-y-auto relative"
+            <div 
+            className="bg-white dark:bg-slate-800 rounded-lg max-w-4xl w-full max-h-90vh overflow-y-auto relative text-gray-900 dark:text-white"
             onClick={(e) => e.stopPropagation()}
           >
             <button

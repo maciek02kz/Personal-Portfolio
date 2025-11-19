@@ -17,7 +17,7 @@ body {
 .gradient-circle {
   position: absolute;
   pointer-events: none;
-  z-index: 100;
+  z-index: 0;
   top: -30px;
   height: 40px;
   width: 100vw;
@@ -32,7 +32,7 @@ body {
 .gradient-circle-bottom {
   position: absolute;
   pointer-events: none;
-  z-index: 100;
+  z-index: 0;
   bottom: -20px;
   height: 30px;
   width: 100vw;
