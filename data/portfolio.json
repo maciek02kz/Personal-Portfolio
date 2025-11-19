@@ -28,15 +28,42 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "/images/ava2.png"
+      "title": "Samples of Work",
+      "description": "Data Analytics",
+      "imageSrc": "/images/proj1.jpg"
     },
     {
       "id": "2",
-      "title": "Project Two",
+      "title": "Wandr",
       "description": "Web Development",
-      "imageSrc": "/images/avaalso.png"
+      "imageSrc": "/images/wandr_logo.png",
+      "url": "https://github.com/maciek02kz/wandr"
+    }
+  ],
+  "projectDetails": [
+    {
+      "id": "1",
+      "title": "Turnover Rate Dashboard",
+      "image": "/images/SOW1.png",
+      "description": "Dashboard analyzing employee turnover rates using historical HR data to identify key factors and provide actionable retention insights. Names and specific details have been omitted to maintain confidentiality."
+    },
+    {
+      "id": "2",
+      "title": "Exit Survey Analysis",
+      "image": "/images/SOW2.png",
+      "description": "Dashboard analyzing exit survey data to uncover trends and insights that inform employee retention strategies and improve workplace satisfaction. Names and specific details have been omitted to maintain confidentiality."
+    },
+    {
+      "id": "3",
+      "title": "Condition Rating Dashboard",
+      "image": "/images/SOW3.png",
+      "description": "Dashboard created for Chicago Bridge Inspection Team to visualize and analyze bridge condition ratings across various regions, enabling data-driven maintenance decisions and resource allocation. Specific details have been omitted to maintain confidentiality."
+    },
+    {
+      "id": "4",
+      "title": "Asset Maintenance and Managment Dashboard",
+      "image": "/images/SOW4.png",
+      "description": "Dashboard analyzing MPC's asset maintenance and management data to optimize resource allocation and improve operational efficiency. Specific details have been omitted to maintain confidentiality."
     }
   ],
   "services": [
@@ -61,7 +88,9 @@
       "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
     }
   ],
-  "aboutpara": "I'm Maciej Koziol, a Data Scientist who enjoys turning complex data into clear, actionable insights. I have experience building predictive models and engineering scalable data pipelines using Python, SQL, and tools like GCP, Looker, and Power BI.\n\nWhen I'm not focused on optimizing operational workflows or forecasting project costs, you can find me pushing my limits as an ultra-distance runner. I recently ran the Chicago Marathon and am currently training for my ultimate goal of becoming an Ironman — I bring that same dedication and problem-solving endurance from my training to my data work.\n\nI'm currently looking to transition into a Data Scientist role in New York City and am excited about connecting with new teams and taking on fresh challenges.",
+  "aboutpara": "I'm Maciej Koziol, a Data Scientist who enjoys turning complex data into clear, actionable insights. I have experience building predictive models and engineering scalable data pipelines using Python, SQL, and tools like GCP, Looker, and Power BI.",
+  "aboutparaTwo": "When I'm not focused on optimizing operational workflows or forecasting project costs, you can find me pushing my limits as an ultra-distance runner. I recently ran the Chicago Marathon and am currently training for my ultimate goal of becoming an Ironman — I bring that same dedication and problem-solving endurance from my training to my data work.",
+  "aboutparaThree": "I'm currently looking to transition into a Data Scientist role in New York City and am excited about connecting with new teams and taking on fresh challenges.",
   "resume": {
     "tagline": "Data Scientist with experience in developing predictive models and data-driven solutions to optimize operational workflows.",
     "description": "Highly skilled in Python (Scikit-learn, Pandas, Matplotlib), SQL, Cloud Platforms (GCP, AWS, BigQuery), and visualization tools (PowerBI, Tableau, Looker) for end-to-end data science projects.",

@@ -1,13 +1,12 @@
 import { useRef } from "react";
+import { useRouter } from "next/router";
 import Header from "../components/Header";
-import ServiceCard from "../components/ServiceCard";
 import Socials from "../components/Socials";
 import WorkCard from "../components/WorkCard";
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import Button from "../components/Button";
 import Cursor from "../components/Cursor";
 
 // Local Data
@@ -15,6 +14,7 @@ import data from "../data/portfolio.json";
 
 export default function Home() {
   // Ref
+  const router = useRouter();
   const workRef = useRef();
   const aboutRef = useRef();
   const textOne = useRef();
@@ -37,6 +37,14 @@ export default function Home() {
       left: 0,
       behavior: "smooth",
     });
+  };
+
+  const handleProjectClick = (projectId, url) => {
+    if (projectId === "1") {
+      router.push("/projects");
+    } else if (url) {
+      window.open(url, "_blank");
+    }
   };
 
   useIsomorphicLayoutEffect(() => {
@@ -102,18 +110,34 @@ export default function Home() {
                 img={project.imageSrc}
                 name={project.title}
                 description={project.description}
-                onClick={() => window.open(project.url)}
+                onClick={() => handleProjectClick(project.id, project.url)}
               />
             ))}
           </div>
         </div>
-
-        {/* Services section removed */}
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
           <h1 className="tablet:m-10 text-2xl text-bold">About.</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
-            {data.aboutpara}
-          </p>
+          <div className="tablet:m-10 mt-2 grid grid-cols-1 laptop:grid-cols-3 gap-8 items-start">
+            <div className="laptop:col-span-2">
+              <p className="text-xl laptop:text-3xl w-full mb-6 leading-relaxed">
+                {data.aboutpara}
+              </p>
+              <p className="text-xl laptop:text-3xl w-full mb-6 leading-relaxed">
+                {data.aboutparaTwo}
+              </p>
+              <p className="text-xl laptop:text-3xl w-full leading-relaxed">
+                {data.aboutparaThree}
+              </p>
+            </div>
+            <div className="laptop:col-span-1">
+              <img
+                src="/images/headshot.png"
+                alt="Maciej Koziol"
+                className="w-full h-auto rounded-lg shadow-lg object-cover"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </div>
         <Footer />
       </div>
