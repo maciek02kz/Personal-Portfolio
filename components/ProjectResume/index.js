@@ -1,7 +1,12 @@
 import React from "react";
 
 const ProjectResume = ({ dates, type, position, bullets }) => {
-  const [bulletsLocal, setBulletsLocal] = React.useState(bullets.split(","));
+  const bulletsLocal = React.useMemo(() => {
+    if (!bullets || typeof bullets !== "string") return [];
+    // Split into sentences (keep punctuation) and trim
+    const matches = bullets.match(/[^.?!]+[.?!]*/g) || [];
+    return matches.map((s) => s.trim()).filter(Boolean);
+  }, [bullets]);
 
   return (
     <div className="mt-5 w-full flex mob:flex-col desktop:flex-row justify-between">
