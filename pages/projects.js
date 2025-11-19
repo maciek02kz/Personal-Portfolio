@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Cursor from "../components/Cursor";
@@ -22,6 +22,15 @@ const Projects = () => {
 
   const closeModal = () => {
     setSelectedProject(null);
+  };
+
+  const galleryRef = useRef(null);
+
+  const scrollGallery = (direction = "right") => {
+    const el = galleryRef.current;
+    if (!el) return;
+    const amount = el.clientWidth || 600;
+    el.scrollBy({ left: direction === "right" ? amount : -amount, behavior: "smooth" });
   };
 
   return (
@@ -91,18 +100,40 @@ const Projects = () => {
               ✕
             </button>
             
-            <div className="p-8">
-              <img
-                src={selectedProject.image}
-                alt={selectedProject.title}
-                className="w-full h-auto rounded-lg mb-6 object-cover"
-              />
-              <h1 className="text-4xl laptop:text-5xl text-bold mb-4">
+            <div className="p-6">
+              <h1 className="text-3xl laptop:text-4xl text-bold mb-4">
                 {selectedProject.title}
               </h1>
-              <p className="text-lg opacity-70 leading-relaxed">
+              <p className="text-lg opacity-70 mb-6 leading-relaxed">
                 {selectedProject.description}
               </p>
+
+              <div className="relative">
+                <div
+                  aria-hidden="true"
+                  className="absolute left-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10"
+                />
+
+                <div
+                  ref={galleryRef}
+                  className="flex gap-4 overflow-x-auto snap-x snap-mandatory scrollbar-thin scrollbar-thumb-gray-300 p-2"
+                >
+                  {(selectedProject.images ? selectedProject.images : [selectedProject.image]).map((img, idx) => (
+                    <div key={idx} className="min-w-[80%] laptop:min-w-[60%] snap-center flex items-center justify-center h-[70vh]">
+                      <img
+                        src={img}
+                        alt={`${selectedProject.title} - ${idx + 1}`}
+                        className="max-h-[70vh] max-w-full object-contain rounded-lg block mx-auto"
+                      />
+                    </div>
+                  ))}
+                </div>
+
+                <div
+                  aria-hidden="true"
+                  className="absolute right-0 top-1/2 -translate-y-1/2 z-20 w-10 h-10"
+                />
+              </div>
             </div>
           </div>
         </div>
