@@ -13,6 +13,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
 
   const { name, showBlog, showResume } = data;
   const hideAbout = router.pathname === "/projects";
+  const contactEmail = (data.socials || []).find((s) => s.title === "Email")?.link || "mailto:maciek02kz@gmail.com";
 
   useEffect(() => {
     setMounted(true);
@@ -78,7 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open(contactEmail)}
                   >
                     Contact
                   </Button>
@@ -99,7 +100,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open(contactEmail)}
                   >
                     Contact
                   </Button>
@@ -134,7 +135,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open(contactEmail)}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -162,7 +163,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open(contactEmail)}>
               Contact
             </Button>
 
